@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+body{
+    background-color: whitesmoke;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    display: grid;
+    background-color: white;
+    padding: 50px;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    color: purple;
+    font-weight: 700;
+    font-size: 40px;
+}
+.text{
+     text-align: right;
+    
+}
+.wrapper-stars{
+    display: grid;
+    gap: 12px;
+}
+.stars1{
+    background-color: rgb(236, 232, 232);
+    padding: 8px;
+    margin-right: 60px;
+   
+}
+.stars2{
+    background-color: rgb(236, 232, 232);
+    padding: 12px;
+    margin-left: 20px;
+    margin-right: 25px;
+    
+}
+.stars3{
+    background-color: rgb(236, 232, 232);
+    padding: 12px;
+    margin-left: 40px;
+   
+}
+
+
+.checked{
+    color: orange;
+}
+
+img{
+   border-radius: 90%;
+}
+.card1{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+    
+    margin-bottom: 33px;
+
+}
+.card2{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+    
+    margin-top: 23px;
+    margin-bottom: 15px;
+    
+}
+.card3{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+   
+    margin-top: 53px;
+}
+
+
+@media screen and (max-width:1024px){
+    .container{
+        display:block;
+    }
+    .stars1,.stars2,.stars3{
+        margin: 10px;
+    }
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
